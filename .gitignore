@@ -3,13 +3,17 @@
 *.iml
 
 # Maven
-target/
+**/target/
 
 # Java
 *.class
 
 # Logs
 *.log
+
+# Local settings and secrets
+.env
+application-local.properties
 
 # Operating system
 .DS_Store
